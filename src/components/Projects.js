@@ -1,9 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/readmeIMG.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import projImg4 from "../assets/img/project-img4.jpg";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -30,19 +33,19 @@ export const Projects = () => {
     {
       title: "OS Simple Shell",
       description: "Created a custom shell based on Linux",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
       link: "https://github.com/AshuChoudharystd/OS_Simple_Shell.git",
     },
     {
       title: "CP Repo",
       description: "Solving CP with expertise in C++",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
       link: "https://github.com/AshuChoudharystd/GDSC_Competetive_coding.git",
     },
     {
       title: "Food Odering App",
       description: "A Full Stack MERN Project ",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
       link: "https://github.com/AshuChoudharystd/Food_Odering_App.git",
     },
   ];
