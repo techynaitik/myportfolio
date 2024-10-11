@@ -56,7 +56,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>In this section, you'll find a collection of projects that highlight my expertise in Web Development, App Development, Machine Learning, and Software Development. Each project showcases my ability to design and build user-friendly web applications, develop mobile apps with seamless functionality, and integrate ML models into real-world solutions. From creating dynamic websites to deploying intelligent systems, my work reflects my passion for problem-solving and continuous learning. Explore my projects to see how I bring ideas to life through code and creativity.</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <Row>
                     {projects.map((project, index) => (
                       <ProjectCard
