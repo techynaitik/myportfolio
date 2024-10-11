@@ -40,10 +40,10 @@ export const Projects = () => {
       link: "https://github.com/AshuChoudharystd/GDSC_Competetive_coding.git",
     },
     {
-      title: "Business Startup 6",
-      description: "Design & Development",
+      title: "Food Odering App",
+      description: "A Full Stack MERN Project",
       imgUrl: projImg3,
-      link: "https://example.com/business-startup6",
+      link: "https://github.com/AshuChoudharystd/Food_Odering_App.git",
     },
   ];
 
